@@ -12,24 +12,21 @@ spec:
       - infrastructure
       - rds
     links:
-      - url: https://github.com/maurosala/fat-squirrels
-        title: maurosala/fat-squirrels
+      - url: https://github.com/maurosala/greedy-marmot
+        title: maurosala/greedy-marmot
         icon: fa-brands fa-git
-      - url: https://kiratech.awsapps.com/start#/
-        title: AWS Console
-        icon: fa-brands fa-aws
     plugins:
       - name: resources
-        value: fat-squirrels
+        value: greedy-marmot
     owner: maurosala
-  name: fat-squirrels
+  name: greedy-marmot
   compositionSelector:
     matchLabels:
       platform: aws
   eks:
-    clusterName: fat-clu
+    clusterName: greedy-clu
   network:
-    networkName: fat-net
+    networkName: greedy-net
   rds:
     rdsRegion: eu-central-1
     rdsDataDiskSizeGb: '10'
@@ -47,6 +44,6 @@ spec:
     domain: github.com
     provider: github
     apiUrl: https://api.github.com/
-    repositoryName: fat-squirrels
+    repositoryName: greedy-marmot
     organizationName: maurosala
     schema: https
