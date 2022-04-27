@@ -18,6 +18,8 @@ spec:
     plugins:
       - name: resources
         value: greedy-marmot
+        type: graph
+        icon: fa-solid fa-diagram-project
       - name: documentation
         value: README.md
         type: doc
