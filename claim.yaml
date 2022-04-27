@@ -24,10 +24,10 @@ spec:
         value: README.md
         type: doc
         icon: fa-solid fa-book-skull
-      #- name: sample-doc
-      #  value: sample.md
-      #  type: doc
-      #  icon: fa-solid fa-file-circle-check
+      - name: sample-doc
+        value: sample.md
+        type: doc
+        icon: fa-solid fa-file-circle-check
     owner: maurosala
   name: greedy-marmot
   compositionSelector:
