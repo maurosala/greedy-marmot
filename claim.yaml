@@ -24,7 +24,7 @@ spec:
         value: README.md
         type: doc
         icon: fa-solid fa-book-skull
-      - name: sample-doc
+      - name: sample md
         value: sample.md
         type: doc
         icon: fa-solid fa-file-circle-check
