@@ -18,6 +18,10 @@ spec:
     plugins:
       - name: resources
         value: greedy-marmot
+      - name: readme
+        value: README.md
+        type: doc
+        icon: fa-solid fa-book-skull
     owner: maurosala
   name: greedy-marmot
   compositionSelector:
