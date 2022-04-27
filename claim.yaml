@@ -18,7 +18,7 @@ spec:
     plugins:
       - name: resources
         value: greedy-marmot
-      - name: documentation
+      - name: docs
         value: README.md
         type: doc
         icon: fa-solid fa-book-skull
