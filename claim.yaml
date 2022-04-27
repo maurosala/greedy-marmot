@@ -20,10 +20,10 @@ spec:
         value: fat-squirrels
         type: graph
         icon: fa-solid fa-diagram-project
-      - name: documentations
-        value: README.md
-        type: doc
-        icon: fa-solid fa-book-skull
+      #- name: documentation
+      #  value: README.md
+      #  type: doc
+      #  icon: fa-solid fa-book-skull
       #- name: sample-doc
       #  value: sample.md
       #  type: doc
