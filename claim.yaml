@@ -17,7 +17,7 @@ spec:
         icon: fa-brands fa-git
     plugins:
       - name: resources
-        value: greedy-marmot
+        value: fat-squirrels
         type: graph
         icon: fa-solid fa-diagram-project
       - name: documentation
