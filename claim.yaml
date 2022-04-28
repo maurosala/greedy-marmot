@@ -26,7 +26,7 @@ spec:
           - sample.md
         type: doc
         icon: fa-solid fa-book-skull
-      - name: ci/cd
+      - name: pipelines
         values:
           - README.md
           - sample.md
