@@ -30,7 +30,7 @@ spec:
         values:
           - README.md
           - sample.md
-        type: pipeline
+        type: github-actions
         icon: fa-solid fa-person-running
     owner: maurosala
   name: greedy-marmot
