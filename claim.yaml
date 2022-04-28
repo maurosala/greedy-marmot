@@ -28,9 +28,9 @@ spec:
         icon: fa-solid fa-book-skull
       - name: pipelines
         values:
-          - "[github] Build STABLE Docker image for every commit"
-          - "[github] Build error"
-          - "[github][maurosala][fat-squirrels] Publish Docker Images"
+          - "[github.com] Build STABLE Docker image for every commit"
+          - "[github.com] Build error"
+          - "[github.com][maurosala][fat-squirrels] Publish Docker Images"
         type: pipeline
         icon: fa-solid fa-person-running
     owner: maurosala
