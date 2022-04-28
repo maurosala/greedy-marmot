@@ -1,4 +1,4 @@
-name: Build STABEL Docker image for every commit
+name: Build STABLE Docker image for every commit
 
 on:
   push:
