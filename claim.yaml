@@ -21,13 +21,17 @@ spec:
         type: argocd
         icon: fa-solid fa-diagram-project
       - name: documentation
-        value: README.md
+        values:
+          - README.md
+          - sample.md
         type: doc
         icon: fa-solid fa-book-skull
-      #- name: sample md
-      #  value: sample.md
-      #  type: doc
-      #  icon: fa-solid fa-file-circle-check
+      - name: ci/cd
+        values:
+          - README.md
+          - sample.md
+        type: pipeline
+        icon: fa-solid fa-person-running
     owner: maurosala
   name: greedy-marmot
   compositionSelector:
