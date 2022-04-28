@@ -18,7 +18,7 @@ spec:
     plugins:
       - name: resources
         value: fat-squirrels
-        type: graph
+        type: argocd
         icon: fa-solid fa-diagram-project
       - name: documentation
         value: README.md
