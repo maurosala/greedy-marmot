@@ -30,7 +30,7 @@ spec:
         values:
           - Build STABLE Docker image for every commit
           - Build error
-          - "[github.com][maurosala][fat-squirrels] Publish Docker Images" # todo
+          # - "[github.com][maurosala][fat-squirrels] Publish Docker Images" # todo
         type: pipeline
         icon: fa-solid fa-person-running
     owner: maurosala
