@@ -32,7 +32,7 @@ spec:
           # - Build error
           #- "[github.com][maurosala][fat-squirrels] Publish Docker Images"
           #- "[github.com][krateoplatformops][krateo-module-core] CI"
-          - "[github.com][krateoplatformops][krateo-template-aws-stack] CI"
+          #- "[github.com][krateoplatformops][krateo-template-aws-stack] CI"
         type: pipeline
         icon: fa-solid fa-person-running
     owner: maurosala
