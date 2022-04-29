@@ -25,7 +25,7 @@ spec:
           - README.md
           - sample.md
         type: doc
-        icon: "fa-solid fa-book-skull"
+        icon: fa-solid fa-book-skull
       - name: pipelines
         values:
           - Build STABLE Docker image for every commit
