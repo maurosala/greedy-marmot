@@ -31,8 +31,7 @@ spec:
           - Build STABLE Docker image for every commit
           - Build error
           #- "[github.com][maurosala][fat-squirrels] Publish Docker Images" # todo
-          - "[github.com][krateoplatformops][krateo-module-core] CI"
-          - " a b c "
+          # - "[github.com][krateoplatformops][krateo-module-core] CI"
         type: pipeline
         icon: fa-solid fa-person-running
     owner: maurosala
