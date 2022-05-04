@@ -34,7 +34,7 @@ spec:
         type: pipeline
         icon: fa-solid fa-person-running
       - name: kubernetes
-        value: krateo-dev
+        value: "app=krateo.io"
         type: kubernetes
         icon: fa-brands fa-docker
     owner: maurosala
