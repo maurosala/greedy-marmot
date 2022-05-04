@@ -33,6 +33,10 @@ spec:
           - "[github.com][krateoplatformops][krateo-template-aws-stack] CI"
         type: pipeline
         icon: fa-solid fa-person-running
+      - name: kubernetes
+        value: krateo-dev
+        type: kubernetes
+        icon: fa-brands fa-docker
     owner: maurosala
   name: greedy-marmot
   compositionSelector:
