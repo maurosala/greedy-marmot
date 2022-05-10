@@ -21,12 +21,14 @@ spec:
         value: fat-squirrels
         type: argocd
         icon: fa-solid fa-diagram-project
+        endpointName: argocd-silver
       - name: documentation
         values:
           - README.md
           - sample.md
         type: doc
         icon: fa-solid fa-book-skull
+        endpointName: github
       - name: pipelines
         values:
           - Build STABLE Docker image for every commit
@@ -34,6 +36,7 @@ spec:
           - "[github.com][krateoplatformops][krateo-template-aws-stack] CI"
         type: pipeline
         icon: fa-solid fa-person-running
+        endpointName: github
       - name: kubernetes
         value: "app=krateo.io"
         type: kubernetes
