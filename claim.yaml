@@ -32,8 +32,8 @@ spec:
       - name: pipelines
         values:
           - Build STABLE Docker image for every commit
-          - "[github.com][krateoplatformops][krateo-module-core] CI"
-          - "[github.com][krateoplatformops][krateo-template-aws-stack] CI"
+          - "[krateoplatformops][krateo-module-core] CI"
+          - "[krateoplatformops][krateo-template-aws-stack] CI"
         type: pipeline
         icon: fa-solid fa-person-running
         endpointName: github
@@ -41,10 +41,10 @@ spec:
         value: "app=krateo.io"
         type: kubernetes
         icon: fa-brands fa-docker
-      - name: prometheus
-        value: "app=krateo.io"
-        type: prometheus
-        icon: fa-solid fa-fire
+      #- name: prometheus
+      #  value: "app=krateo.io"
+      #  type: prometheus
+      #  icon: fa-solid fa-fire
     owner: maurosala
   name: greedy-marmot
   compositionSelector:
