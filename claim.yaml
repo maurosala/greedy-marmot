@@ -45,6 +45,7 @@ spec:
         type: sonarcloud
         icon: fa-solid fa-tower-broadcast
         value: maurosala_fat-squirrels
+        endpointName: sonarcloud
       #- name: prometheus
       #  value: "app=krateo.io"
       #  type: prometheus
