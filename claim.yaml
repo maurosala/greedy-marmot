@@ -31,16 +31,20 @@ spec:
         endpointName: github
       - name: pipelines
         values:
-          - Build STABLE Docker image for every commit
+          - Sonarcloud
           - "[krateoplatformops][krateo-module-core] CI"
           - "[krateoplatformops][krateo-template-aws-stack] CI"
         type: pipeline
         icon: fa-solid fa-person-running
         endpointName: github
       - name: kubernetes
-        value: "app=krateo.io"
+        value: "app.kubernetes.io/managed-by=Helm"
         type: kubernetes
         icon: fa-brands fa-docker
+      - name: sonarcloud
+        type: sonarcloud
+        icon: fa-solid fa-tower-broadcast
+        value: maurosala_fat-squirrels
       #- name: prometheus
       #  value: "app=krateo.io"
       #  type: prometheus
