@@ -42,7 +42,7 @@ spec:
         type: kubernetes
         icon: fa-brands fa-docker
       - name: sonarcloud
-        type: sonarcloud
+        type: codequality
         icon: fa-solid fa-tower-broadcast
         value: maurosala_fat-squirrels
         endpointName: sonarcloud
