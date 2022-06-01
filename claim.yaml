@@ -32,8 +32,6 @@ spec:
       - name: pipelines
         values:
           - Sonarcloud
-          - "[krateoplatformops][krateo-module-core] CI"
-          - "[krateoplatformops][krateo-template-aws-stack] CI"
         type: pipeline
         icon: fa-solid fa-person-running
         endpointName: github
