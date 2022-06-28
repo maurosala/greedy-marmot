@@ -32,7 +32,7 @@ spec:
       - name: pipelines
         values:
           - Sonarcloud
-          - "[krateoplatformops][krateo]release"
+          - "[krateoplatformops][pipeline-service]Build stable Docker image (tags)"
         type: pipeline
         icon: fa-solid fa-person-running
         endpointName: github
