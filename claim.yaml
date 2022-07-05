@@ -50,7 +50,6 @@ spec:
       #  type: prometheus
       #  icon: fa-solid fa-fire
     owner: maurosala
-  name: greedy-marmot
   compositionSelector:
     matchLabels:
       platform: aws
