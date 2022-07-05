@@ -1,7 +1,7 @@
 apiVersion: templates.krateo.io/v1alpha1
 kind: aws-stack
 metadata:
-  name: aws-stack
+  name: greedy-marmot
   deploymentId: 626c03950944e84673f8b82b
 spec:
   dashboard:
