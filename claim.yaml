@@ -2,7 +2,8 @@ apiVersion: templates.krateo.io/v1alpha1
 kind: AwsStack
 metadata:
   name: greedy-marmot
-  deploymentId: 626c03950944e84673f8b82b
+  labels:
+    deploymentId: 626c03950944e84673f8b82b
 spec:
   dashboard:
     description: demo stack
@@ -50,7 +51,6 @@ spec:
       #  type: prometheus
       #  icon: fa-solid fa-fire
     owner: maurosala
-  name: greedy-marmot
   compositionSelector:
     matchLabels:
       platform: aws
