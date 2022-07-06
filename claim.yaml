@@ -18,11 +18,11 @@ spec:
         title: maurosala/greedy-marmot
         icon: fa-brands fa-git
     plugins:
-      - name: resources
-        value: fat-squirrels
-        type: argocd
-        icon: fa-solid fa-diagram-project
-        endpointName: argocd-silver
+      #- name: resources
+      #  value: fat-squirrels
+      #  type: argocd
+      #  icon: fa-solid fa-diagram-project
+      #  endpointName: argocd-silver
       - name: documentation
         values:
           - README.md
