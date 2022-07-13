@@ -41,6 +41,9 @@ spec:
         value: "app.kubernetes.io/managed-by=Helm"
         type: kubernetes
         icon: fa-brands fa-docker
+      - name: capi
+        type: capi
+        icon: fa-solid fa-tape
       - name: sonarcloud
         type: codequality
         icon: fa-solid fa-tower-broadcast
